@@ -9,6 +9,9 @@
     margin:0;
     padding: 0;
 }
+html {
+  height: -webkit-fill-available;
+}
 body{
     background: var(--Light-gray);
     width: 100%;
@@ -16,8 +19,7 @@ body{
     display: grid;
     place-content: center;
     font-family: 'Outfit', sans-serif;
-    min-height: -webkit-fill-available;
-    min-height: fill-available;
+    min-height: -webkit-fill-available;   
 }
 .card{
     width: 280px;
