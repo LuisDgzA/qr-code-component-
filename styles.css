@@ -16,6 +16,8 @@ body{
     display: grid;
     place-content: center;
     font-family: 'Outfit', sans-serif;
+    min-height: -webkit-fill-available;
+    min-height: fill-available;
 }
 .card{
     width: 280px;
